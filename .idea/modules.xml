@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/02-variables/02-variables.iml" filepath="$PROJECT_DIR$/02-variables/02-variables.iml" />
-      <module fileurl="file://$PROJECT_DIR$/03-conditional-logic/03-conditional-logic.iml" filepath="$PROJECT_DIR$/03-conditional-logic/03-conditional-logic.iml" />
-      <module fileurl="file://$PROJECT_DIR$/04-numbers/04-numbers.iml" filepath="$PROJECT_DIR$/04-numbers/04-numbers.iml" />
-      <module fileurl="file://$PROJECT_DIR$/05-strings/05-strings.iml" filepath="$PROJECT_DIR$/05-strings/05-strings.iml" />
-      <module fileurl="file://$PROJECT_DIR$/06-booleans/06-booleans.iml" filepath="$PROJECT_DIR$/06-booleans/06-booleans.iml" />
-      <module fileurl="file://$PROJECT_DIR$/07-functions/07-functions.iml" filepath="$PROJECT_DIR$/07-functions/07-functions.iml" />
-      <module fileurl="file://$PROJECT_DIR$/08-objects/08-objects.iml" filepath="$PROJECT_DIR$/08-objects/08-objects.iml" />
-      <module fileurl="file://$PROJECT_DIR$/09-arrays/09-arrays.iml" filepath="$PROJECT_DIR$/09-arrays/09-arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/javascript-basics/javascript-basics.iml" filepath="$PROJECT_DIR$/javascript-basics/javascript-basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-app/my-app.iml" filepath="$PROJECT_DIR$/my-app/my-app.iml" />
     </modules>
   </component>
 </project>

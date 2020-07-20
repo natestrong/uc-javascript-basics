@@ -56,11 +56,26 @@ const cat2 = {
 };
 
 const cat2Withid = Object.create(cat2);
-cat2Withid.job = 'security cat'
+cat2Withid.job = 'security cat';
 
 console.log(cat2);
 console.log(cat2Withid);
 
-cat2.name = 'Maxwell'
+cat2.name = 'Maxwell';
 
-console.log(Object.keys(cat2Withid))
+console.log(Object.keys(cat2Withid));
+
+const cats = ['Oliver', 'Sophie', 'Maxwell'];
+
+const removeIndex = 1;
+
+const newCats = [...cats.slice(0, removeIndex), ...cats.slice(removeIndex + 1)];
+
+console.log(cats);
+console.log(newCats);
+
+const cars = ['Tacoma', 'Prius', 'Ferrari', 'Ranger'];
+
+console.log(cars.slice(2));
+
+console.log(cars);

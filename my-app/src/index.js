@@ -79,9 +79,7 @@ let cars = ['Tacoma', 'Prius', 'Ferrari', 'Ranger'];
 console.log(cars.slice(2));
 
 cars = cars.concat(['Tesla', 'Porsche']);
-
 cars.reverse();
-
 console.log(cars);
 
 const myCats = [

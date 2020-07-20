@@ -84,9 +84,9 @@ console.log(cars);
 
 
 const myCats = [
-    {name: 'Oliver', speed: -1},
-    {name: 'Maxwell', speed: 8},
-    {name: 'Sophie', speed: 11}
+    {name: 'Oliver', speed: -1, agility: 1},
+    {name: 'Maxwell', speed: 8, agility: 50},
+    {name: 'Sophie', speed: 11, agility: 25}
 ];
 
 const mappedCats = myCats.map(cat => {
@@ -94,3 +94,16 @@ const mappedCats = myCats.map(cat => {
 });
 
 console.log(mappedCats);
+
+const totalSpeed = myCats.reduce((prev, next) => prev + next.speed, 0);
+const totalSpeed2 = myCats.reduce((prev, {speed}) => prev + speed, 0);
+console.log(totalSpeed);
+console.log(totalSpeed2);
+
+const checkIfCatsIsFast = (speed) => speed > 10;
+const allCatsFast = mappedCats.every(({speed}) => checkIfCatsIsFast(speed));
+console.log(allCatsFast);
+
+const canGetPastLava = (speed, agility) => speed + agility > 50;
+const ninjaKitty = myCats.find(({speed, agility}) => canGetPastLava(speed, agility));
+console.log(ninjaKitty);

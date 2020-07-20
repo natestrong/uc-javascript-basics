@@ -74,9 +74,24 @@ const newCats = [...cats.slice(0, removeIndex), ...cats.slice(removeIndex + 1)];
 console.log(cats);
 console.log(newCats);
 
-const cars = ['Tacoma', 'Prius', 'Ferrari', 'Ranger'];
+let cars = ['Tacoma', 'Prius', 'Ferrari', 'Ranger'];
 
 console.log(cars.slice(2));
 
+cars = cars.concat(['Tesla', 'Porsche']);
+
+cars.reverse();
 
 console.log(cars);
+
+const myCats = [
+    {name: 'Oliver', speed: -1},
+    {name: 'Maxwell', speed: 8},
+    {name: 'Sophie', speed: 11}
+];
+
+const mappedCats = myCats.map(cat => {
+    return {...cat, speed: cat.speed * 2};
+});
+
+console.log(mappedCats);

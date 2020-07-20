@@ -78,4 +78,5 @@ const cars = ['Tacoma', 'Prius', 'Ferrari', 'Ranger'];
 
 console.log(cars.slice(2));
 
+
 console.log(cars);

@@ -92,5 +92,4 @@ const mappedCats = myCats.map(cat => {
     return {...cat, speed: cat.speed * 2};
 });
 
-
 console.log(mappedCats);
